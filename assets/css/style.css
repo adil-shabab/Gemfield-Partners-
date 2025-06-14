@@ -6067,6 +6067,7 @@ h6 {
 }
 .our__benefits-right img {
   border-radius: 15px;
+  object-position: top;
   height: 570px;
   -o-object-fit: cover;
      object-fit: cover;
