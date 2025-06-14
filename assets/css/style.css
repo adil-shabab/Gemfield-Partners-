@@ -3654,7 +3654,7 @@ h6 {
   margin-bottom: 40px;
 }
 .menu__bar-popup-top .logo img {
-  max-width: 155px;
+  max-width: 185px;
 }
 .menu__bar-popup-top .close i {
   background: var(--color-5);
@@ -4385,6 +4385,9 @@ h6 {
 @media (max-width: 575px) {
   .about__two-right-overview {
     display: block;
+  }
+  .about__two-left {
+    display: none;
   }
   .about__two-right-overview-item {
     border: 0;
