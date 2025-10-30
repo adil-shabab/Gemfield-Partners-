@@ -40,16 +40,12 @@
 			<div class="spinner-bounce three"></div>
 		</div>
 	</div>
-	<!-- Preloader end -->
-	<div class="cursor">
-		<div class="hide"><div id="cursor-ball"></div></div>
-        <div id="cursor-text"></div>
-    </div>
+
 
 	<!-- Mobile Menu Start -->
 	<div class="menu__bar-popup">
 		<div class="menu__bar-popup-top">
-			<div class="logo"><a href="index.html"><img src="assets/img/logo-2.png" alt="logo-image"></a></div>			
+			<div class="logo"><a href="#home"><img src="assets/img/logo-2.png" alt="logo-image"></a></div>			
 			<div class="close"><i class="fal fa-times"></i></div>
 
 		</div>
@@ -61,31 +57,7 @@
 	</div>
 	<div class="menu__bar-popup-overlay"></div>
 	<!-- Mobile Menu End -->
-	<!-- TopBar Area Start -->
-	<div class="top__bar">
-		<div class="container">
-			<div class="row al-center">
-				<div class="col-md-8">
-					<div class="top__bar-left md-t-center">
-						<ul>
-							<li><a href="#" target="_blank"><i class="fas fa-map-marker-alt"></i>London </a></li>
-							<li><a href="mailto:info@gemfieldpartners.com"><i class="fas fa-envelope"></i>info@gemfieldpartners.com</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="top__bar-right t-right md-t-center">
-						<ul>
-							<li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-							<li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+
 	<!-- TopBar Area End -->
 	<!-- Header Area Start -->
 	<div class="header__area">
@@ -95,17 +67,19 @@
 					<div class="header__area-menubar">
 						<div class="header__area-menubar-left one">
 							<div class="header__area-menubar-left-logo">
-								<a href="index.html"><img class="dark-n" src="assets/img/logo-1.png" alt="logo"> </a>
+								<a href="#home"><img class="dark-n" src="assets/img/logo-1.png" alt="logo"> </a>
 							</div>
 						</div>
 						<div class="header__area-menubar-center">
 							<div class="header__area-menubar-center-menu">
 								<ul id="mobilemenu">
 									 
-									<li class=""><a class="active" href="index.html">Home</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="services.html">Services</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
+									<li><a href="#about">Who we are</a></li>
+									<li><a href="#services">What we do</a></li>
+									<li><a href="#team">Team</a></li>
+									<li><a href="#experience">Experience</a></li>
+									<li><a href="#contact">Contact</a></li>
+									<li><a href="news.html">News & Insights</a></li>
 								</ul>
 							</div>
 						</div>
@@ -131,7 +105,7 @@
 	</div>
 	<!-- Header Area End -->
 	<!-- Banner Area Start -->
-	<div class="banner__one">
+	<div class="banner__one" id="home">
 		<div class="banner swiper banner-slider">
 			<div class="swiper-wrapper">
 
@@ -145,7 +119,7 @@
 									<h1 data-animation="fadeInUp" data-delay=".6s">Experience in <span>Deals</span> Drives Success</h1>
 									<p data-animation="fadeInUp" data-delay=".9s">Decades of dealmaking expertise helps founders drive growth and make informed strategic decisions for impact</p>
 									<div class="banner__one-content-button" data-animation="fadeInUp" data-delay="1.4s">
-										<a class="default_button" href="#">Schedule Consultation <i class="flaticon-right-up"></i></a>
+										<a class="default_button" href="#contact">Schedule Consultation <i class="flaticon-right-up"></i></a>
 									</div>
 								</div>
 							</div>
@@ -163,7 +137,7 @@
 									<h1 data-animation="fadeInUp" data-delay=".6s">Think Big <span>Act</span> Smart Grow Bold</h1>
 									<p data-animation="fadeInUp" data-delay=".9s">Explore acquisitions, investments, and exits with expert guidance for sustainable, founder-led business success</p>
 									<div class="banner__one-content-button" data-animation="fadeInUp" data-delay="1.4s">
-										<a class="default_button" href="#">Speak to an Expert <i class="flaticon-right-up"></i></a>
+										<a class="default_button" href="#contact">Speak to an Expert <i class="flaticon-right-up"></i></a>
 									</div>
 								</div>
 							</div>
@@ -181,7 +155,7 @@
 									<h1 data-animation="fadeInUp" data-delay=".6s">Go Further with <span>Focused</span> Strategy</h1>
 									<p data-animation="fadeInUp" data-delay=".9s">Advising tech leaders with tailored strategic support to unlock growth and realise long-term business outcomes</p>
 									<div class="banner__one-content-button" data-animation="fadeInUp" data-delay="1.4s">
-										<a class="default_button" href="#">Get Strategic Insights <i class="flaticon-right-up"></i></a>
+										<a class="default_button" href="#contact">Get Strategic Insights <i class="flaticon-right-up"></i></a>
 									</div>
 								</div>
 							</div>
@@ -198,16 +172,63 @@
 		</div>
 	</div>
 
+
+	<!-- Choose Us Area Start -->
+	<div class="choose__us overflow-hidden section-padding" id="about">
+		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
+		<div class="container">
+			<div class="row al-center">
+				<div class="col-lg-6">
+					<div class="choose__us-right">
+						<div class="choose__us-right-title">
+							<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Who We Are</span>
+							<h2 class="title_split_anim mb-20">Independent Advisors. Strategic Thinkers. Trusted Partners.</h2>
+							<p class="wow fadeInUp" data-wow-delay=".5s">
+								A truly independent strategic advisory resource for founders / CEOs	We integrate fully into your organisa-on and operate side by side with you as part of the team
+							</p>
+						</div>
+						<div class="about__one-right-list mt-30">
+							<div class="row wow fadeInUp" data-wow-delay=".9s">
+								<div class="col-sm-12">
+									<ul>
+										<li><i class="flaticon-checked"></i>15 years of global transac-on experience across bulge bracket banks and large tech corporate development execu-ng >$15bn of transac-ons as both advisor and principal</li>
+										<li><i class="flaticon-checked"></i>Able to help you navigate both the strategic and financial sponsor acquirer / investor ecosystems globally</li>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+						<div class="mt-45 item_bounce">
+							<a class="default_button" href="#contacct">Get in Touch <i class="flaticon-right-up"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="choose__us-left ml-40 lg-ml-0 lg-mt-25">
+						<img class="wow img_left_animation img_full" src="assets/img/pages/image-6.jpg" alt="Gemfield Partners">
+						<div class="choose__us-left-success wow fadeInUp" data-wow-delay=".6s">
+							<h3><span class="counter">15</span>+</h3>
+							<span>Years Advising Global Tech Leaders</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Choose Us Area End -->
+
+
+
+
 	<!-- Banner Area ebd -->
 	<!-- Services Area Start -->
-	<div class="services__one overflow-hidden section-padding">
+	<div class="services__one overflow-hidden section-padding" id="services">
 		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
 		<div class="container">
 			<div class="row mb-30">
 				<div class="col-lg-12">
 					<div class="services__one-title t-center">
-						<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Our Services</span>
-						<h2 class="title_split_anim">Strategic Advisory Expertise</h2>
+						<h2 class="title_split_anim">What We Do</h2>
 					</div>
 				</div>
 			</div>
@@ -219,9 +240,9 @@
 							<i class="flaticon-strategy"></i>
 						</div>
 						<div class="services__one-item-content">
-							<h4><a href="#">Buy-side M&A</a></h4>
-							<p>We advise clients on acquisitions with market research, valuation, deal structuring, and execution support.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+							<h4><a href="#">Sell side M&A</a></h4>
+							<p>Driving a successful outcome for shareholders and management teams through a smooth process</p>
+							<p>We help with prepara-on, determining the right buyer landscape, execu-ng the process and nego-a-ng deal terms</p>
 						</div>
 					</div>
 				</div>
@@ -234,9 +255,9 @@
 
 						</div>
 						<div class="services__one-item-content">
-							<h4><a href="#">Sell-side M&A</a></h4>
-							<p>From preparation to closing, we guide founders through company sales to strategic or financial buyers.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+							<h4><a href="#">Buy side M&A</a></h4>
+							<p>Acting as or together with your in-house corporate development to iden-fy, contact and acquire targets </p>
+							<p>We help with market research, valua-on, transac-on execu-on, deal structuring and nego-a-on, and how to approach integra-on</p>
 						</div>
 					</div>
 				</div>
@@ -249,8 +270,7 @@
 						</div>
 						<div class="services__one-item-content">
 							<h4><a href="#">Fundraising Preparation</a></h4>
-							<p>We help tech companies prepare investor materials, build financial models, and engage with the right capital partners.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+							<p>Advice across a variety of fundraising ac-vi-es and stages. We help with prepara-on of materials, iden-fying the relevant investor universe and running an efficient process</p>
 						</div>
 					</div>
 				</div>
@@ -263,8 +283,7 @@
 						</div>
 						<div class="services__one-item-content">
 							<h4><a href="#">Exit Preparation</a></h4>
-							<p>We provide long-term guidance on structuring your business to maximize valuation ahead of an IPO or sale.</p>
-							<a class="more_btn" href="#">Read More<i class="flaticon-right-up"></i></a>
+							<p>What you can do to prepare the company well before an exit process kicks off to maximize value and op-onality and ensure a smooth process whether through a sale, IPO or other liquidity event</p>
 						</div>
 					</div>
 				</div>
@@ -275,58 +294,9 @@
 	<!-- Services Area End -->
 
 
-	<!-- Choose Us Area Start -->
-	<div class="choose__us overflow-hidden section-padding">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
-		<div class="container">
-			<div class="row al-center">
-				<div class="col-lg-6">
-					<div class="choose__us-right">
-						<div class="choose__us-right-title">
-							<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Who We Are</span>
-							<h2 class="title_split_anim mb-20">Driven by Clarity, Strategy & Execution</h2>
-							<p class="wow fadeInUp" data-wow-delay=".5s">
-								Gemfield Partners was founded to provide sharp, independent advice to founders and CEOs navigating M&A, fundraising, and strategic growth. We focus on what matters: thoughtful planning, smart execution, and trusted outcomes.
-							</p>
-						</div>
-						<div class="about__one-right-list mt-30">
-							<div class="row wow fadeInUp" data-wow-delay=".9s">
-								<div class="col-sm-6">
-									<ul>
-										<li><i class="flaticon-checked"></i>Founder-first approach</li>
-										<li><i class="flaticon-checked"></i>Strategy without bias</li>
-									</ul>
-								</div>
-								<div class="col-sm-6 sm-mt-10">
-									<ul>
-										<li><i class="flaticon-checked"></i>Smart capital planning</li>
-										<li><i class="flaticon-checked"></i>Tailored deal support</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="mt-45 item_bounce">
-							<a class="default_button" href="contact.html">Learn More About Us <i class="flaticon-right-up"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="choose__us-left ml-40 lg-ml-0 lg-mt-25">
-						<img class="wow img_left_animation img_full" src="assets/img/pages/image-6.jpg" alt="Gemfield Partners">
-						<div class="choose__us-left-success wow fadeInUp" data-wow-delay=".6s">
-							<h3><span class="counter">100</span>%</h3>
-							<span>Independent & Aligned With Your Vision</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Choose Us Area End -->
-
 
 	<!-- Text Slide Start -->
-	<div class="scroll__slider">
+	<div class="scroll__slider" >
 		<div class="text-slide">
 			<div class="sliders text_scroll">
 				<ul>
@@ -360,95 +330,184 @@
 	<!-- Text Slide End -->
 
  
-	<!-- Meet the Founder Area Start -->
-	<div class="our__benefits overflow-hidden section-padding">
-		<div class="bg_shape" style="background-image: url('assets/img/shape/bg.png');"></div>
+	<div class="team__section pb-5" id="team">
 		<div class="container">
-			<div class="row al-center">
-				<!-- Image Side -->
-				<div class="col-lg-6">
-					<div class="our__benefits-right">
-						<img class="wow img_full img_left_animation" src="assets/img/team/team-1.jpg" alt="Vivek Manipadam">
-					</div>
-				</div>
+			<div class="team__content">
+				<img src="assets/img/team/team-1.jpg" alt="">
+				<h5>Vivek Manipadam</h5>
+				<p>More than 15 years of technology investment banking experience across EMEA and the US, with over $15 billion of transactions executed across the software, internet, and IT services sectors.</p>
+				<p>Formerly the EMEA Head of Internet Investment Banking at Credit Suisse, Vivek began his investment banking career at Bank of America. Additionally, he led Amazon's European Corporate Development team, where he focused on investments and acquisitions in the software, fintech, and e-commerce sectors.</p>
+				<p>He holds a B.Eng. from the National University of Singapore and an MBA from the Tuck School of Business at Dartmouth.</p>
 
-				<!-- Content Side -->
-				<div class="col-lg-6 lg-mt-25">
-					<div class="our__benefits-left ml-60 xl-ml-0">
-						<div class="our__benefits-left-title mb-25">
-							<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Meet Our Founder</span>
-							<h2 class="title_split_anim mb-20">Vivek Manipadam – Strategic Vision Backed by Execution</h2>
-							<p class="wow fadeInUp" data-wow-delay=".6s">
-								Vivek brings a unique blend of investment banking and corporate development experience, having led Amazon's M&A efforts across Europe and advised on $15B+ in global tech deals. His mission with Gemfield Partners is simple: to give founders the strategic edge needed to grow, raise capital, or exit with confidence.
-							</p>
-						</div>
-						
-						<div class="item_bounce mt-50">
-							<a class="default_button" href="contact.html">Contact Now<i class="flaticon-right-up"></i></a>
-						</div>
-					</div>
-				</div>
-
+				<a target="_blank" href="www.linkedin.com/in/vivek-manipadam-9b590b">
+					Follow On <i class="fab fa-linkedin-in"></i> Linkedin
+				</a>
 			</div>
 		</div>
 	</div>
-	<!-- Meet the Founder Area End -->
 
-	<!-- Work Process Area Start -->
-	<div class="process__area overflow-hidden section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="process__area-title t-center">
-						<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Work Process</span>
-						<h2 class="title_split_anim">We Simplify Complex Strategic Decisions</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="process__area-list">
-
-						<!-- Step 1 -->
-						<div class="process__area-item wow fadeInUp" data-wow-delay=".3s">
-							<span>01</span>
-							<div class="process__area-item-area">
-								<i class="flaticon-analyst"></i>
-								<h5>Initial Discovery & Goal Setting</h5>
-								<p>We begin with deep discovery to understand your business, growth goals, and exit expectations.</p>
-							</div>
-						</div>
-
-						<!-- Step 2 -->
-						<div class="process__area-item wow fadeInUp" data-wow-delay=".5s">
-							<span>02</span>
-							<div class="process__area-item-area">
-								<i class="flaticon-influencer"></i>
-								<h5>Strategy & Investor Mapping</h5>
-								<p>We develop a tailored M&A or fundraising strategy, identify potential partners, and build your investor materials.</p>
-							</div>
-						</div>
-
-						<!-- Step 3 -->
-						<div class="process__area-item wow fadeInUp" data-wow-delay="0.8s">
-							<span>03</span>
-							<div class="process__area-item-area">
-								<i class="flaticon-select"></i>
-								<h5>Execution & Deal Closure</h5>
-								<p>We manage outreach, negotiations, and diligence—guiding you through to successful transaction closure.</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Work Process Area End -->
 
  
+	<div class="marquee" id="experience">
+		<div class="container">
+			<h4>Our Clients</h4>
+			<div class="row">
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/1.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/2.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/3.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/4.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/5.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/6.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/7.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/8.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/9.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/10.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/11.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-2 col-6">
+					<div class="bx___box">
+						<img src="assets/img/clients/12.png" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- Contact Us Area Start -->
+	<div class="contact__info section-padding-three" id="contact">
+		<div class="container">
+			<div class="row">
+				<!-- Location -->
+				<div class="col-lg-4 col-md-6 mt-25">
+					<div class="contact__info-item">
+						<i class="flaticon-location"></i>
+						<span>Location :</span>
+						<h5><a href="https://www.google.com/maps/place/London,+UK/" target="_blank">London, United Kingdom</a></h5>
+					</div>
+				</div>
+
+				<!-- Email -->
+				<div class="col-lg-4 col-md-6 mt-25">
+					<div class="contact__info-item">
+						<i class="flaticon-email"></i>
+						<span>Email :</span>
+						<h5><a href="mailto:info@gemfieldpartners.com">info@gemfieldpartners.com</a></h5>
+					</div>
+				</div>
+
+				<!-- Phone -->
+				<div class="col-lg-4 col-md-6 mt-25">
+					<div class="contact__info-item">
+						<i class="flaticon-phone-call"></i>
+						<span>Phone :</span>
+						<h5><a href="tel:+447577446290">+44 7577 446290</a></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="contact__area section-padding pt-0">
+		<div class="container">
+			<div class="row al-center">
+				<!-- Contact Form -->
+				<div class="col-lg-6">
+					<div class="contact__area-left">
+						<span class="subtitle wow fadeInLeft" data-wow-delay=".4s">Let’s Talk</span>
+						<h2 class="title_split_anim">Get in touch</h2>
+						<form action="#">
+							<div class="row">
+								<div class="col-md-6 mt-25">
+									<div class="contact__form-area-item">
+										<input type="text" name="name" placeholder="Full Name" required="required">
+									</div>
+								</div>
+								<div class="col-md-6 mt-25">
+									<div class="contact__form-area-item">
+										<input type="email" name="email" placeholder="Email Address" required="required">
+									</div>
+								</div>
+								<div class="col-md-12 mt-25">
+									<div class="contact__form-area-item">
+										<input type="text" name="subject" placeholder="Subject">
+									</div>
+								</div>
+								<div class="col-md-12 mt-25">
+									<div class="contact__form-area-item">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12 mt-25">
+									<div class="contact__form-area-item">
+										<button class="default_button" type="submit">Submit Now <i class="flaticon-right-up"></i></button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<!-- Google Map -->
+				<div class="col-lg-6 lg-mt-25">
+					<div class="map-area">
+						<iframe loading="lazy"
+							src="https://maps.google.com/maps?q=London,%20UK&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near"
+							title="Gemfield Partners – London Office" aria-label="Gemfield Partners London Location"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact Us Area End -->
+
+
 	<!-- Footer CTA Start -->
-	<div class="footer__cta">
+	<div class="mt-5 footer__cta">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-12">
@@ -461,7 +520,7 @@
 							</div>
 							<div class="col-xl-6 col-lg-5">
 								<div class="footer__cta-area-right d-flex al-center flex-wrap jc-end lg-jc-center gap-25">
-									<a class="default_button" href="contact.html">Start Today<i class="flaticon-right-up"></i></a>
+									<a class="default_button" href="mailto:info@gemfieldpartners.com">Start Today<i class="flaticon-right-up"></i></a>
 								</div>
 							</div>
 						</div>
@@ -471,6 +530,7 @@
 		</div>
 	</div>
 
+	
 	<!-- Main Footer Start -->
 	<div class="footer__one">
 		<div class="bg_shape" style="background-image: url('assets/img/shape/footer.png');"></div>
@@ -478,7 +538,7 @@
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
 					<div class="footer__one-widget">
-						<a class="logo" href="index.html"><img src="assets/img/logo-2.png" alt="logo"></a>
+						<a class="logo" href="#"><img src="assets/img/logo-2.png" alt="logo"></a>
 						<p>Strategic advisory for tech founders. We help you raise, grow, or exit — on your terms, with clarity and confidence.</p>
 					</div>
 				</div>
@@ -487,12 +547,24 @@
 						<h5>Quick links</h5>
 						<div class="footer-widget-menu">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="services.html">Our Services</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
+								<li><a href="#home">Home</a></li>
+								<li><a href="#about">Who we are</a></li>
+								<li><a href="#services">What we Do</a></li>
+								<li><a href="#team">Our Team</a></li>
+	
 							</ul>
 						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-sm-6 lg-mt-30">
+					<h5 class="text-white">Quick links</h5>
+					<div class="footer-widget-menu mt-4">
+						<ul>
+							<li><a href="#experience">Experience</a></li>
+							<li><a href="news.html">News and Insigths</a></li>
+							<li><a href="#contact">Contact Us</a></li>
+						</ul>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 lg-mt-30">
@@ -518,18 +590,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6 lg-mt-30">
-					<div class="footer__one-widget social">
-						<h5>Social Media</h5>
-						<p>Follow us for strategic insights, market trends, and updates.</p>
-						<ul>
-							<li><a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
-							<li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
+
 			</div>
 
 			<div class="row">

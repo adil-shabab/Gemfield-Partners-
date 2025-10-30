@@ -3062,7 +3062,7 @@ h6 {
   display: inline-block;
   position: relative;
   list-style: none;
-  margin: 0 25px;
+  margin: 0 10px;
 }
 .header__area-menubar-center-menu ul li:hover > a {
   color: var(--primary-color-1);
@@ -7356,3 +7356,50 @@ h6 {
 .dark-mode .footer__one-widget p {
   color: #e6e7e1;
 }/*# sourceMappingURL=style.css.map */
+
+.team__section .team__content{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 90px auto 0px;
+}
+.team__section .team__content img{
+  width: 25%;
+  border-radius: 5px;
+}
+.team__section .team__content h5{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.team__section .team__content p{
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+
+.marquee h4{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 575px) {
+  .team__section .team__content{
+    width: 100%;
+    margin: 60px auto 0px;
+  }
+  .team__section .team__content img{
+    width: 60%;
+  }
+
+
+}
