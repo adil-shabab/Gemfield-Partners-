@@ -5737,7 +5737,7 @@ h6 {
 ==========================================================================*/
 .footer__one {
   background: var(--color-1);
-  padding: 90px 0 35px 0;
+  padding: 50px 0 35px 0;
   position: relative;
   z-index: 1;
 }
@@ -7357,38 +7357,41 @@ h6 {
   color: #e6e7e1;
 }/*# sourceMappingURL=style.css.map */
 
-.team__section .team__content{
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 90px auto 0px;
+
+.team__section{
+  margin-top: 35px;
 }
-.team__section .team__content img{
-  width: 25%;
+.team__section img{
+  width: 100%;
+  border-radius: 5px;
   border-radius: 5px;
 }
-.team__section .team__content h5{
+.team__section h5{
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
   margin-top: 20px;
 }
 
-.team__section .team__content p{
+.team__section p{
   font-size: 16px;
-  text-align: center;
+  text-align: start;
+}
+
+.experience__heading{
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 
 
-
 .marquee h4{
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 
