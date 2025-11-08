@@ -7406,3 +7406,59 @@ h6 {
 
 
 }
+
+
+
+.banner__section{
+  background: url('../img/banner/banner-main.jpg');    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  position: relative;
+}
+.banner__section::after{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.533);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.banner__section .content__box{
+  z-index: 111;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner__section .content__box h1{
+  font-size: 55px;
+  color: white;
+  line-height: 60px;
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 575px) {
+
+  .banner__section{
+    min-height: 60vh;
+  }
+
+  .banner__section .content__box{
+    height: 60vh;
+  }
+  .banner__section .content__box h1{
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+
+}
