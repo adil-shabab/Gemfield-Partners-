@@ -5737,7 +5737,7 @@ h6 {
 * Footer One CSS
 ==========================================================================*/
 .footer__one {
-  background: var(--color-1);
+  background: #272261;
   padding: 50px 0 35px 0;
   position: relative;
   z-index: 1;
@@ -7387,8 +7387,6 @@ h6 {
 .team__section h5{
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: 15px;
-  margin-top: 20px;
 }
 
 .team__section p{
